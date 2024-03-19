@@ -1,0 +1,43 @@
+.nav__part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    h2{
+        font-size: 30px;
+    }
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    a{
+        padding-left: 30px;
+    }
+}
+.nav{
+    padding: 24px 0;
+}
+.family{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    .title{
+        font-size: 40px;
+        width: 400px;
+    }
+    .text{
+        width: 400px;
+        color: rgb(229, 229, 229);
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    button{
+        width: 150px;
+        background-color: white;
+        padding: 10px;
+        color: black;
+    }
+}
